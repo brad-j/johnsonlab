@@ -1,0 +1,17 @@
+{
+  "$schema":  "https://raw.githubusercontent.com/jetify-com/devbox/0.14.0/.schema/devbox.schema.json",
+  "packages": ["neovim@0.10.4"],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "working-dir": [
+        "echo \"$(pwd)\""
+      ],
+      "test": [
+        "echo \"Hello World! Welcome to DevBox!\""
+      ]
+    }
+  }
+}
