@@ -12,3 +12,5 @@ sudo chown $USER $HOME/.kube/config
 sudo chmod 600 $HOME/.kube/config
 export KUBECONFIG=$HOME/.kube/config
 ````
+
+Test
