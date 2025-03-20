@@ -15,12 +15,12 @@ export KUBECONFIG=$HOME/.kube/config
 
 ## 3. Install Kustomize
 
-## 3.1 Install Kustomize CLI
+3.1 Install Kustomize CLI
 
 ```bash
 yay -S flux-bin
 ```
-## 3.2 Create Github Personal Access Token
+3.2 Create Github Personal Access Token
 ` Settings -> Developer settings -> Personal access tokens -> Tokens (classic)`
 
 ```bash
@@ -28,7 +28,7 @@ export GITHUB_TOKEN=<your-token>
 export GITHUB_USER=<your-username>
 ```
 
-## 3.3 Check Flux Installation
+3.3 Check Flux Installation
 
 `flux check --pre`
 
