@@ -21,6 +21,7 @@ export KUBECONFIG=$HOME/.kube/config
 yay -S flux-bin
 ```
 3.2 Create Github Personal Access Token
+
 ` Settings -> Developer settings -> Personal access tokens -> Tokens (classic)`
 
 ```bash
@@ -46,3 +47,13 @@ project
 └── clusters
     ├── production
     └── staging
+````
+## 4. Create Pods et al
+
+## 5. Install k9s
+
+```bash
+sudo pacman -S k9s
+````
+Move gruvbox-dark.yaml to .config/k9s/skins/
+.config/k9s/config.yaml > skin: gruvbox-dark
