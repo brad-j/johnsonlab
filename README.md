@@ -55,5 +55,17 @@ project
 ```bash
 sudo pacman -S k9s
 ````
+
+## 6. Cloudflare tunnel with cloudflared
+```bash
+yay -Syu cloudflared
+
+cloudflared tunnel login
+
+cloudflared tunnel create <tunnel-name>
+````
+
+## Misc.
 Move gruvbox-dark.yaml to .config/k9s/skins/
 .config/k9s/config.yaml > skin: gruvbox-dark
+
